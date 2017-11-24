@@ -45,7 +45,7 @@ portion.  For clarity, we'll use variables `a`, `b`, and `c`.
 ```
 
 Which is a much simpler solution.  We could then speed up our algorithm by
-observing that if we compupte the sum of `a` to `c` (a constant time
+observing that if we compute the sum of `a` to `c` (a constant time
 operation), then subtract `a` and multiple by `a`, then we have the sum
 `ab + ac`, then subtracting `b` and multiplying by `b` gets us the product
 `bc`, then taking that sum and multiplying by two gets us our final solution.
