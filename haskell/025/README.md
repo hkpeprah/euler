@@ -28,7 +28,7 @@ digits?
 
 ## Solution
 
-Here we again assume we are working in a language that doe snot support large
+Here we again assume we are working in a language that does not support large
 integers, and choose to represent our numbers as integers.  We then implement a
 function that returns all Fibonnaci numbers, and use the fact that Haskell is
 lazy to take integers from said list until we hit a number represented as a
